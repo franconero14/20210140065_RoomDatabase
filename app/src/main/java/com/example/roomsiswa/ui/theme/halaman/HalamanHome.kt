@@ -29,6 +29,14 @@ object DestinasiHome : DestinasiNavigasi{
 }
 
 @Composable
+fun BodyHome(
+    itemSiswa: List<Siswa>,
+    modifier: Modifier = Modifier
+){
+
+}
+
+@Composable
 fun ListSiswa(
     itemSiswa: List<Siswa>,
     modifier: Modifier = Modifier
